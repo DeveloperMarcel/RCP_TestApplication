@@ -21,7 +21,7 @@ public class SamplePart {
 	
 	@Inject
 	private MDirtyable dirty;
-	//changes made here to check git repository changes
+	
 	@PostConstruct
 	public void createComposite(Composite parent) {
 		parent.setLayout(new GridLayout(1,false));
